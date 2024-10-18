@@ -1,2 +1,1 @@
-# edutanimas
-Website Edukasi Pertanian Masuk Sekolah
+# PertanianKu - Dicoding Challenge
