@@ -7,7 +7,7 @@ import Logo from "../Elements/Logo";
 
 const menu = [
   {
-    name: "Edu Tani Mas",
+    name: "PertanianKu",
     path: "/",
     active: true,
     icon: "svg/nav-home.svg",
@@ -90,7 +90,7 @@ const SideBar = ({ isMenuOpen }) => {
       <div className="flex flex-col pt-5 px-4">
         <Logo />
         <h3 className="text-sm font-bold text-[#8391A1] mb-5 mt-7">
-          MENU UTAMA
+          HOME PAGE
         </h3>
         <div className="flex flex-col gap-5 ">
           {menu.map((item) => (
