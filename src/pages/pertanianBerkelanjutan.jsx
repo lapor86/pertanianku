@@ -21,29 +21,29 @@ const PertanianBerkelanjutan = () => {
   return (
     <div className="no-scrollbar md:scrollbar-visible overflow-x-hidden min-h-screen flex flex-col">
       <Helmet>
-        <title>Pertanian Berkelanjutan | EduTaniMas</title>
+        <title>Pertanian Berkelanjutan | Pertanianku</title>
         <meta
           name="description"
           content="Pertanian berkelanjutan adalah usaha pertanian yang memanfaatkan  sekaligus melestarikan sumber daya secara optimal untuk menghasilkan  produk panen secara optimal, menggunakan masukan sarana dan biaya yang  wajar, sanggup memenuhi kriteria sosial, ekonomi, kelestarian  lingkungan, dan menggunakan sarana produksi yang terbarukan serta  menghasilkan produktivitas sumber daya sepanjang masa."
         />
         <meta
           name="keywords"
-          content="edutanimas, pertanian, pertanian berkelanjutan, edukasi pertanian, pembangunan pertanian, smansabri, sekolah, platform p5"
+          content="pertanianku, pertanian, pertanian berkelanjutan, edukasi pertanian, pembangunan pertanian, smansabri, sekolah, platform p5"
         />
         <link
           rel="canonical"
-          href="https://edutanimas.vercel.app/pertanian-berkelanjutan"
+          href="https://pertanianku-dicoding.vercel.app/pertanian-berkelanjutan"
         />
         <meta
           property="og:title"
-          content="EduTaniMas - Edukasi Pertanian Masuk Sekolah"
+          content="Pertanianku - Edukasi Pertanian Indonesia"
         />
         <meta
           property="og:description"
           content="Tani Mas merupakan kegiatan budidaya pertanian yang dilaksanakan oleh siswa dan guru di lingkungan sekolah sebagai salah satu program unggulan 100 hari kerja Menteri Pertanian RI. Program Tani Mas meningkatkan pengetahuan siswa terhadap budidaya pertanian dan menumbuhkan semangat siswa menjadi agripreneur serta meningkatkan ketersediaan dan akses pangan"
         />
         <meta property="og:image" content="images/home-page.jpg" />
-        <meta property="og:url" content="https://edutanimas.vercel.app/" />
+        <meta property="og:url" content="https://pertanianku-dicoding.vercel.app" />
         <meta property="og:type" content="website" />
       </Helmet>
       <Navbar />
@@ -104,7 +104,7 @@ const PertanianBerkelanjutan = () => {
         >
           <div className="absolute cursor-pointer inset-x-0 bottom-10 md:bottom-[60%] flex justify-center items-center">
             <p className="bg-[#218225] text-xs text-center py-3 px-8 text-white font-bold rounded-[10px] xl:w-[168px] xl:h-[44px] xl:font-semibold xl:text-[18px] font-mulish">
-              Get Started
+              Baca Selengkapnya
             </p>
           </div>
         </LinkScroll>
