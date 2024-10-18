@@ -26,29 +26,29 @@ const Home = () => {
   return (
     <div className="min-h-screen flex flex-col relative">
       <Helmet>
-        <title>Beranda | EduTaniMas</title>
+        <title>Beranda | Pertanianku</title>
         <meta
           name="description"
           content="Tani Mas merupakan kegiatan budidaya pertanian yang dilaksanakan oleh siswa dan guru di lingkungan sekolah sebagai salah satu program unggulan 100 hari kerja Menteri Pertanian RI. Program Tani Mas meningkatkan pengetahuan siswa terhadap budidaya pertanian dan menumbuhkan semangat siswa menjadi agripreneur serta meningkatkan ketersediaan dan akses pangan."
         />
         <meta
           name="keywords"
-          content="edutanimas, pertanian, pertanian berkelanjutan, edukasi pertanian, pembangunan pertanian, smansabri, sekolah, platform p5"
+          content="pertanianku, dicoding, pertanian berkelanjutan, edukasi pertanian, pembangunan pertanian, smansabri, sekolah, platform p5"
         />
         <link
           rel="canonical"
-          href="https://edutanimas.vercel.app/"
+          href="https://pertanianku-dicoding.vercel.app"
         />
         <meta
           property="og:title"
-          content="EduTaniMas - Edukasi Pertanian Masuk Sekolah"
+          content="Pertanianku - Edukasi Pertanian Indonesia"
         />
         <meta
           property="og:description"
           content="Tani Mas merupakan kegiatan budidaya pertanian yang dilaksanakan oleh siswa dan guru di lingkungan sekolah sebagai salah satu program unggulan 100 hari kerja Menteri Pertanian RI. Program Tani Mas meningkatkan pengetahuan siswa terhadap budidaya pertanian dan menumbuhkan semangat siswa menjadi agripreneur serta meningkatkan ketersediaan dan akses pangan."
         />
         <meta property="og:image" content="images/home-page.jpg" />
-        <meta property="og:url" content="https://edutanimas.vercel.app/" />
+        <meta property="og:url" content="https://pertanianku-dicoding.vercel.app" />
         <meta property="og:type" content="website" />
       </Helmet>
       <Navbar />
@@ -111,7 +111,7 @@ const Home = () => {
         <LinkScroll to="target-section" spy={true} smooth={true} offset={-50} duration={500}>
           <div className="flex cursor-pointer justify-center items-center inset-x-0 mt-[440px] md:mt-[20px] lg:mt-[30px]">
             <p className="btnb bg-[#218225] text-xs text-center py-3 px-8 text-white font-bold rounded-[10px] xl:w-[168px] xl:h-[44px] xl:font-semibold xl:text-[18px]">
-              Get Started
+              Baca Selengkapnya
             </p>
           </div>
         </LinkScroll>
@@ -212,7 +212,7 @@ const Home = () => {
                 title: "Data ",
                 classname: "",
               },
-              { title: "Edutanimas ", classname: "text-primary" },
+              { title: "Pertanianku ", classname: "text-primary" },
             ]}
           />
         </div>
