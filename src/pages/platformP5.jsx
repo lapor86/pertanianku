@@ -10,29 +10,29 @@ const PlatformP5 = () => {
   return (
     <div className="font-mulish min-h-screen flex flex-col">
       <Helmet>
-        <title>Platform P5 - EduTaniMas</title>
+        <title>Platform P5 - Pertanianku</title>
         <meta
           name="description"
           content="P5 Gaya Hidup Berkelanjutan adalah fitur untuk mendokumentasikan kegiatan pertanian berkelanjutan siswa. Melalui fitur ini, siswa dapat melaporkan progres mereka, sementara guru dapat memantau perkembangan secara langsung"
         />
         <meta
           name="keywords"
-          content="edutanimas, pertanian, pertanian berkelanjutan, edukasi pertanian, pembangunan pertanian, smansabri, sekolah, platform p5"
+          content="pertanianku, pertanian berkelanjutan, edukasi pertanian, pembangunan pertanian, smansabri, sekolah, platform p5"
         />
         <link
           rel="canonical"
-          href="https://edutanimas.vercel.app/platform-p5"
+          href="https://pertanianku-dicoding.vercel.app/platform-p5"
         />
         <meta
           property="og:title"
-          content="EduTaniMas - Edukasi Pertanian Masuk Sekolah"
+          content="Pertaniku - Edukasi Pertanian Masuk Sekolah"
         />
         <meta
           property="og:description"
           content="Tani Mas merupakan kegiatan budidaya pertanian yang dilaksanakan oleh siswa dan guru di lingkungan sekolah sebagai salah satu program unggulan 100 hari kerja Menteri Pertanian RI. Program Tani Mas meningkatkan pengetahuan siswa terhadap budidaya pertanian dan menumbuhkan semangat siswa menjadi agripreneur serta meningkatkan ketersediaan dan akses pangan"
         />
         <meta property="og:image" content="images/home-page.jpg" />
-        <meta property="og:url" content="https://edutanimas.vercel.app/" />
+        <meta property="og:url" content="https://pertanianku-dicoding.vercel.app" />
         <meta property="og:type" content="website" />
       </Helmet>
       <Navbar />
@@ -51,7 +51,7 @@ const PlatformP5 = () => {
                     "font-semibold text-[14px] text-black md:text-[36px] lg:text-[64px]",
                 },
                 {
-                  title: "SMANSABRI",
+                  title: "DiCoding",
                   classname:
                     "text-primary font-semibold text-[14px] -top-3 md:text-[36px] md:top-0 lg:text-[64px]",
                 },
