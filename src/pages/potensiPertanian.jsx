@@ -20,22 +20,22 @@ const PotensiPertanian = () => {
   return (
     <div className="font-mulish min-h-screen flex flex-col scrollbar-thin-4px scrollbar-thumb-gray-400">
       <Helmet>
-        <title>Potensi Pertanian - EduTaniMas</title>
+        <title>Potensi Pertanian - Pertanianku</title>
         <meta
           name="description"
           content="Potensi Hasil Pertanian di Kecamatan Bringin disajikan dalam tabel di bawah ini."
         />
         <meta
           name="keywords"
-          content="edutanimas, pertanian, pertanian berkelanjutan, edukasi pertanian, pembangunan pertanian, smansabri, sekolah, platform p5"
+          content="pertanian, pertanian berkelanjutan, edukasi pertanian, pembangunan pertanian, smansabri, sekolah, platform p5"
         />
         <link
           rel="canonical"
-          href="https://edutanimas.vercel.app/potensi-pertanian"
+          href="https://pertanianku-dicoding.vercel.app/potensi-pertanian"
         />
         <meta
           property="og:title"
-          content="EduTaniMas - Edukasi Pertanian Masuk Sekolah"
+          content="Pertanianku - Edukasi Pertanian Masuk Sekolah"
         />
         <meta
           property="og:description"
@@ -67,7 +67,7 @@ const PotensiPertanian = () => {
             width="font-bold"
             content={[
               { title: "Hasil " },
-              { title: "Pertanian", classname: "text-primary" },
+              { title: "Pertanianku", classname: "text-primary" },
             ]}
           />
         </h1>
@@ -151,7 +151,7 @@ const PotensiPertanian = () => {
             <div className="md:w-full md:px-48 lg:px-52 xl:px-96">
               <TableProduction data={DataHoltikultura} />
               <p className="text-xs lg:text-base">
-                Sumber: Kecamatan Bringin dalam Angka 2021
+                Sumber: Kecamatan Bringin dalam Angka 2024
               </p>
             </div>
           </div>
@@ -260,7 +260,7 @@ const PotensiPertanian = () => {
             <div className="md:w-full md:px-48 lg:px-52 xl:px-96">
               <TableProduction data={DataPangan} />
               <p className="text-xs lg:text-base">
-                Sumber: Kecamatan Bringin dalam Angka 2021
+                Sumber: Kecamatan Bringin dalam Angka 2024
               </p>
             </div>
           </div>
@@ -369,7 +369,7 @@ const PotensiPertanian = () => {
             <div className="md:w-full md:px-48 lg:px-52 xl:px-96">
               <TableProduction data={DataBuah} />
               <p className="text-xs lg:text-base">
-                Sumber: Kecamatan Bringin dalam Angka 2021
+                Sumber: Kecamatan Bringin dalam Angka 2024
               </p>
             </div>
           </div>
