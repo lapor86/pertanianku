@@ -10,7 +10,7 @@ const Footer = () => {
           className="h-[23px] w-[23px] lg:h-[35px] lg:w-[35px]"
         />
         <h2 className="text-sm lg:text-xl text-white font-semibold border-b-[1px] border-white">
-          EduTaniMas
+          Pertanianku
         </h2>
       </div>
       {/* <div className="flex flex-row items-baseline w-[276px] text-[10px] text-center"> */}
@@ -19,13 +19,12 @@ const Footer = () => {
           <img src="svg/location.svg" alt="" className="w-2" />
         </div>
         <p className="">
-          Jalan Wibisono, Gang II/No 3, Bringin, Semarang, Kabupaten Semarang,
-          Jawa Tengah (50772)
+         DiCoding Challenge
         </p>
       </div>
       {/* </div> */}
       <p className="text-[10px] text-center px-4 py-2">
-        Email : wahyufauziyah2000@gmail.com | Whatsapp : 085876574032
+        Email : anonsecteaminc@gmail.com | Whatsapp : 085648973328
       </p>
       <div className="w-full h-9 bg-[#043A3A]/30 rounded-t-lg"></div>
     </footer>
