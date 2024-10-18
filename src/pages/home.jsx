@@ -100,8 +100,8 @@ const Home = () => {
               />
               <HeadSection
                 content={[
-                  { title: "Masuk ", classname: "" },
-                  { title: "Sekolah ", classname: "", highlight: true },
+                  { title: "DiCoding ", classname: "" },
+                  { title: "Challenge ", classname: "", highlight: true },
                 ]}
               />
             </div>
